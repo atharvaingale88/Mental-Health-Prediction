@@ -98,7 +98,7 @@ Data visualization is comprehensively addressed through a diverse set of librari
 
 A notable aspect of the technical stack is the inclusion of `Flask`.`Flask` provides a lightweight framework for developing web applications. This suggests an intention to deploy the project's findings in an accessible, interactive format, thereby broadening the practical utility and reach of the research.
 
-**4. Analysis and Modeling Approach**
+## 4. Analysis and Modeling Approach
 
 The central analytical objective of this project is to construct a robust machine learning model capable of predicting whether an individual in the tech industry has sought professional treatment for a mental health issue. This objective is framed as a binary classification problem, with the `treatment` column from the `survey.csv` dataset serving as the designated target variable.<!----><!----><!----><!----><!---->
 
