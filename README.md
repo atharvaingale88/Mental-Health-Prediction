@@ -96,7 +96,7 @@ For efficient data handling, `numpy` and `pandas` serve as foundational librarie
 
 Data visualization is comprehensively addressed through a diverse set of libraries, including `matplotlib`, `seaborn and plotly`. These tools facilitate thorough exploratory data analysis (EDA) and effective communication of findings, allowing for the creation of both static statistical plots and interactive dashboards.
 
-A notable aspect of the technical stack is the inclusion of `Flask`.`Flask` provides a lightweight framework for developing web applications. This suggests an intention to deploy the project's findings in an accessible, interactive format, thereby broadening the practical utility and reach of the research.
+A notable aspect of the technical stack is the inclusion of `Flask`.`Flask` provides a lightweight framework for developing web applications. `Flask` is used here to develop simple web application which asks person to input some parameters and predicts weather the person needs mental health treatment or not.
 
 ## 4. Analysis and Modeling Approach
 
