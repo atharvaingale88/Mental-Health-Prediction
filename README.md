@@ -8,7 +8,6 @@ The significance of this project stems from the universal prevalence of mental h
 
 This analytical undertaking is designed to transition from observational data to actionable strategies. The project's utility extends beyond a simple description of the mental health landscape in tech. Instead, it provides a predictive framework capable of identifying individuals who are likely to seek treatment and, crucially, illuminating the specific factors that either encourage or deter this vital step. This shifts the project's inherent value from purely academic comprehension to the practical development of intervention strategies for human resources departments and organizational leadership.
 
-
 ## 2. Dataset Description
 
 The primary dataset underpinning this analysis, `survey.csv`, is derived from surveys conducted by Open Sourcing Mental Health (OSMI), a non-profit organization dedicated to advancing mental health awareness and support within the tech community. This dataset captures responses predominantly from the 2014 survey, offering a valuable snapshot of perceptions and experiences regarding mental health across the global tech industry.<!----><!----><!----><!----><!---->
@@ -83,7 +82,6 @@ The project's central focus is on predicting `treatment` seeking behavior. Howev
 
 _presence_ of a mental health condition, but rather the _behavioral decision_ to seek professional help. This reframes the problem from a purely medical perspective to one that encompasses broader social and organizational psychological dimensions, highlighting the complex interplay of individual perceptions and environmental factors.
 
-
 ## 3. Technical Stack
 
 The technical infrastructure supporting this project is built upon a comprehensive suite of Python libraries and frameworks, as meticulously detailed in the `requirements.txt` file. This robust collection facilitates every phase of the data science lifecycle, from data ingestion and cleaning to advanced model development, rigorous evaluation, and potential deployment.<!----><!----><!----><!----><!---->
@@ -117,7 +115,6 @@ Given the identified data quality issues, comprehensive preprocessing steps were
 - **Outlier Treatment:** Addressing anomalous values in the `Age` column, such as negative or implausibly large numbers, through methods like capping or removal, to prevent them from skewing the model's learning process.<!----><!----><!----><!----><!---->
 
 The emphasis on feature engineering, particularly the creation of interaction terms, signifies an analytical depth that extends beyond merely applying an algorithm to raw data. This approach reflects a hypothesis-driven exploration designed to uncover non-obvious relationships within the dataset. For instance, the combined influence of a respondent's age and the size of their workplace (`no_employees`) might collectively exert a different or stronger influence on treatment-seeking behavior than either factor considered in isolation. This demonstrates a sophisticated understanding of both data manipulation and the underlying domain.
-
 
 ## 5. Results and Key Findings
 
